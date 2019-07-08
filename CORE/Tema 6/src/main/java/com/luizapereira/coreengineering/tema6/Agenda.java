@@ -62,5 +62,9 @@ public class Agenda {
 
         return null;
     }
+
+    public void addPerson(Person person) {
+        this.person.add(person);
+    }
 }
 
