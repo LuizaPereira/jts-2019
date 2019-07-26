@@ -4,8 +4,7 @@ CORE-ENGINEERING:
 
 TEMA 1 - Criação do README.md
 
-TEMA 2 - Lean e Agile
-       - Metodologias Ágeis
+TEMA 2 - Metodologias Ágeis
 
 TEMA 3 - Override e Overload
 
@@ -36,3 +35,5 @@ TEMA 15 - Design Pattern Template Method
 TEMA 16 - Design Pattern Chain of Responsibility
 
 TEMA 17 - Design Pattern Command
+
+TEMA 18 - Design Pattern Decorator
