@@ -28,3 +28,5 @@ TEMA 11 - Design Pattern Factory
 TEMA 12 - Design Pattern Builder
 
 TEMA 13 - Design Pattern Strategy
+
+TEMA 14 - Design Pattern Abstract Factory e Singleton
