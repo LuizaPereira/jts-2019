@@ -22,3 +22,5 @@ TEMA 8 - Biblioteca com JSON
 TEMA 9 - DDD
 
 TEMA 10 - Agenda de contatos com banco de dados
+
+TEMA 11 - Design Pattern Factory
