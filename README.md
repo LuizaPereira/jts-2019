@@ -32,3 +32,5 @@ TEMA 13 - Design Pattern Strategy
 TEMA 14 - Design Pattern Abstract Factory e Singleton
 
 TEMA 15 - Design Pattern Template Method
+
+TEMA 16 - Design Pattern Chain of Responsibility
