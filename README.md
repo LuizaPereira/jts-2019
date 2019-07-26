@@ -26,3 +26,5 @@ TEMA 10 - Agenda de contatos com banco de dados
 TEMA 11 - Design Pattern Factory
 
 TEMA 12 - Design Pattern Builder
+
+TEMA 13 - Design Pattern Strategy
