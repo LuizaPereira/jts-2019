@@ -1,0 +1,76 @@
+* {
+   margin: 0px;
+   padding: 0px
+}
+
+header, nav, .article, footer {
+   font-family: Arial
+}
+
+header {
+   background: #C52F0F;
+   font-size: 75px;
+   color: aliceblue;
+   padding-left: 3vh;
+   padding-top: 5vh;
+   height: 15vh;
+   font-weight: lighter;
+}
+
+nav {
+   color: aliceblue;
+   background:  #0000CD;
+   font-weight: bold;
+   height: 4vh;
+   margin-bottom: 1vh;
+   padding-top: 10px;
+}
+
+a:link, a:visited {
+   text-decoration: none;
+   color: aliceblue;
+   padding-left: 40px;
+}
+
+.article {
+   float: left;
+   width: 75vw;
+   margin: 20px;
+}
+
+.right-list {
+   float: right;
+   padding-right: 60px;
+   border: 1px solid black;
+   margin: 15px;
+}
+
+h1 {
+   font-size: 45px;
+}
+
+h3 {
+   font-size: 20px;
+   margin-left: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+li {
+   font-size: 15px;
+   margin-bottom: 5px;
+   margin-left: 40px;
+   width: 20vh;
+}
+
+footer {
+   background: #A9A9A9;
+   color: aliceblue;
+   padding-top: 10px;
+   padding-left: 3vh;
+   position: fixed;
+   height: 4vh;
+   bottom: 0px;
+   right: 0px;
+   left: 0px
+} 

@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+
+ nav,header, article, div, footer {
+   padding: 15px;
+   background-color: #FFFF00;
+   float: left;
+ }
+ 
+ nav {
+    width: 15vw;
+    height: 60vh;
+ }
+
+ header {
+    height: 10vh;
+    width: 100vw;
+    margin-bottom: 10px;
+ }
+
+ article {
+    height: 60vh;
+    width: 54vw;
+    margin-bottom: 10px;
+    margin-left: 15px;
+ }
+
+ div {
+    float: right;
+    height: 60vh;
+    width: 22vw;
+    margin-bottom: 10px;
+ }
+
+ footer {
+    width: 100vw;
+    height: 10vh;
+ } 

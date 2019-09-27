@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+
+ nav,header, article, div, footer {
+   padding: 15px;
+   background-color: #9ACD32;
+   float: right;
+   width: 78vw;
+ }
+ 
+ nav {
+    float: left;
+    width: 15vw;
+    height: 96vh;
+ }
+
+ header {
+    height: 15vh;
+    margin-bottom: 10px;
+ }
+
+ article {
+    height: 35vh;
+    margin-bottom: 10px;
+ }
+
+ div {
+    height: 15vh;
+    margin-bottom: 10px;
+ }
+
+ footer {
+    height: 12vh;
+ }
