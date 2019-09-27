@@ -1,61 +1,26 @@
-//Tipos de Variaveis
-$width: 100%;
-$font_size: 1.2rem;
-$background: #962acd;
-$color: #fff;
-$border_style: solid 1px $color;
+.msg {
+    border: 1px solid;
+    padding: 4px;
+    text-align: center;
+  }
+  
+  .msg-error {
+    @extend .msg;
+    border-color: #ff0000;
+    color: #ff0000;
+  }
+  
+  .msg-alert {
+    @extend .msg ;
+    border-color: #ff8e00;
+    color: #ff8e00;
+  }
 
-//Numericas
-$width_rem: 3.5rem;
-$width_px: 300px;
-$width: 300;
+  a:hover {
+      text-decoration: underline;
+  }
 
-//Strings
-$font: "Lucida Grande";
-$weight: bold;
-
-//Cores
-$bg: red;
-$bg_section: rgb(100, 100, 100);
-$font_color: #ffffff;
-
-//Listas
-$animals: puma, sea-slug, salamander;
-$margin: 10px 20px 15px 20px;
-
-//Maps
-$social: (
-    facebook: #3b5998,
-    flickr: #0063db,
-    gihub: #4183c4,
-    googleplus: #dd4b39,
-    instagram: #b31e63,
-    linkedin: #007bb6,
-    pinterest: #cb2027,
-    soundcloud: #f60,
-    twitter: #00aced,
-    youtube: #b00
-);
-
-nav {
-    background: $background;
-    color: $color;
-    width: $width;
-    font-size: $font_size;
-}
-
-aside {
-    width: $width;
-}
-
-section {
-    font-family: $font;
-    font-weight: $weight;
-    background: $bg_section;
-    margin: $margin;
-}
-
-body {
-    background: $bg;
-    color: $font_color;
-}
+  .hoverlink {
+      @extend a:hover;
+      color: #000;
+  }
