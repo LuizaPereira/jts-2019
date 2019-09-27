@@ -1,0 +1,11 @@
+{
+  "name": "sass_estudos",
+  "version": "1.0.0",
+  "description": "Estudos de sass",
+  "main": "app.js",
+  "author": "Luiza Pereira",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
