@@ -1,18 +1,17 @@
-.msg, .msg-error, .msg-alert {
-  border: 1px solid;
-  padding: 4px;
-  text-align: center; }
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  color: green;
+  font-size: 14px; }
 
-.msg-error {
-  border-color: #ff0000;
-  color: #ff0000; }
+h1 {
+  color: blue;
+  font-size: 14px; }
 
-.msg-alert {
-  border-color: #ff8e00;
-  color: #ff8e00; }
+p {
+  padding: 20px; }
 
-a:hover, .hoverlink {
-  text-decoration: underline; }
-
-.hoverlink {
-  color: #000; }
+p {
+  padding: 10px 20px; }

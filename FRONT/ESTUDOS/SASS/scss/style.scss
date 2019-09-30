@@ -1,26 +1,32 @@
-.msg {
-    border: 1px solid;
-    padding: 4px;
-    text-align: center;
-  }
-  
-  .msg-error {
-    @extend .msg;
-    border-color: #ff0000;
-    color: #ff0000;
-  }
-  
-  .msg-alert {
-    @extend .msg ;
-    border-color: #ff8e00;
-    color: #ff8e00;
-  }
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
 
-  a:hover {
-      text-decoration: underline;
-  }
+@mixin title($size, $color: blue){
+  color: $color;
+  font-size: $size;
+}
 
-  .hoverlink {
-      @extend a:hover;
-      color: #000;
-  }
+@mixin pad ($values...) {
+  padding: $values;
+}
+
+.box {
+  @include border-radius(10px);
+  @include title(14px, green);
+}
+
+h1 {
+  @include title(14px);
+}
+
+p {
+  @include pad(20px);
+}
+
+p {
+  @include pad(10px 20px);
+}
