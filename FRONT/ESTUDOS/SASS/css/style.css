@@ -1,17 +1,21 @@
-.box {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  border-radius: 10px;
-  color: green;
-  font-size: 14px; }
+body {
+  background: #64c864; }
 
-h1 {
-  color: blue;
-  font-size: 14px; }
+section {
+  background: rgba(100, 200, 100, 0.8); }
 
-p {
-  padding: 20px; }
+section div {
+  background: white;
+  background: #111111;
+  font-family: "Open Sans";
+  font-weight: bold;
+  padding: 4;
+  font-family: "BOLD";
+  font-family: "bold";
+  width: 400%;
+  margin: 2;
+  margin: 3;
+  margin: 2; }
 
-p {
-  padding: 10px 20px; }
+div {
+  width: 50%; }
