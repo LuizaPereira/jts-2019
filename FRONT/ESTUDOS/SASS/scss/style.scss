@@ -1,27 +1,35 @@
-$i: 6;
-
-@for $i from 1 through 3 {
-  .item-#{$i} {
-    width: 2em * $i;
+.sidebar {
+  width: 40%;
+  @media screen and (landscape) {
+    width: 30%;
   }
 }
 
-//ignora a ultima interacao
-@for $i from 1 to 3 {
-  .object-#{$i} {
-    width: 2em * $i;
-  }
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin landscape {
+   @media screen and (orientation: landscape) {
+       @content;
+   }
 }
 
-@each $animal in puma, sea-slug, egret, salamander {
-  .#{$animal}-icon {
-    background-image: url('/images/#{$animal}.png');
-  }
+@mixin tablet {
+   @media (min-width: #{$tablet-width}) {
+       @content;
+   }
 }
 
-@while $i > 0 {
-  .item-#{$i} { 
-	width: 2em * $i; 
+@mixin desktop {
+   @media (min-width: #{$desktop-width}) {
+       @content;
+   }
+}
+
+header {
+  padding: 3em;	
+
+  @include tablet {
+      padding: 2em;
   }
-  $i: $i - 2;
 }
