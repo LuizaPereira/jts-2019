@@ -1,3 +1,10 @@
+Condições
+=========
+
+Uso de `@if` | `@else if` | `@else`.
+
+`style.scss` :
+```
 $template: dark;
 
 header {
@@ -9,3 +16,10 @@ header {
     color: red;
   }
 }
+```
+`style.css` gerado :
+```
+header {
+  color: #000; }
+
+```
