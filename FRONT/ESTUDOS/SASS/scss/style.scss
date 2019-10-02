@@ -1,11 +1,27 @@
-$template: dark;
+$i: 6;
 
-header {
-  @if ($template == dark) {
-    color: #000;
-  } @else if ($template == blue) {
-    color: blue;
-  } @else {
-    color: red;
+@for $i from 1 through 3 {
+  .item-#{$i} {
+    width: 2em * $i;
   }
+}
+
+//ignora a ultima interacao
+@for $i from 1 to 3 {
+  .object-#{$i} {
+    width: 2em * $i;
+  }
+}
+
+@each $animal in puma, sea-slug, egret, salamander {
+  .#{$animal}-icon {
+    background-image: url('/images/#{$animal}.png');
+  }
+}
+
+@while $i > 0 {
+  .item-#{$i} { 
+	width: 2em * $i; 
+  }
+  $i: $i - 2;
 }
