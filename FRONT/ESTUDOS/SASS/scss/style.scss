@@ -1,40 +1,17 @@
-$red: 100;
-$green: 200;
-$blue: 100;
-$alpha: 0.8;
-$color: #ddd;
-$amount: 80%;
-$font: Open Sans;
-$weight: "bold";
-$real_round: 2.2;
-$real: 2.5;
-
-@function calc-fluid ($target, $container) {
-  @return ($target/$container) * 100%;
+@mixin center {
+  display: block;
+  margin: 0 auto;
 }
 
-body {
-  background: rgb($red, $green, $blue);
-}
-
-section {
-  background: rgba($red, $green, $blue, $alpha);
-}
-
-section div {
-  background: lighten($color, $amount);
-  background: darken($color, $amount);
-  font-family: quote($font);
-  font-weight: unquote($weight);
-  padding: str-length($weight);
-  font-family: to-upper-case($weight);
-  font-family: to-lower-case($weight);
-  width: percentage(str-length($weight));
-  margin: round($real_round);
-  margin: ceil($real);
-  margin: floor($real);
+%center {
+  display: block;
+  margin: 0 auto;
 }
 
 div {
- width: calc-fluid(500, 1000);
+  @extend %center;
+}
+
+p {
+  @extend %center;
 }
