@@ -1,0 +1,11 @@
+{
+  "name": "009_Nivel6_Desafio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "scss": "yarn run node-sass --watch src/styles/sass/style.scss src/styles/css/style.css"},
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
