@@ -15,7 +15,7 @@
 <!-- Two Way Binding -->
 
 <!-- ngIf -->
-<div *ngIf="showTitle; then titleBlock, else subBlock"> </div>
+<!-- <div *ngIf="showTitle; then titleBlock, else subBlock"> </div>
 
 <ng-template #titleBlock>
   <h1> Title Block Test</h1>
@@ -23,5 +23,11 @@
 
 <ng-template #subBlock>
   <h1> Title Sub Test</h1>
-</ng-template>
+</ng-template> -->
 <!-- ngIf -->
+
+<!-- ngFor -->
+  <ul *ngFor="let car of cars, index as i">
+    <li>{{i}} - {{car}}</li>
+  </ul>
+<!-- ngFor -->

@@ -13,4 +13,6 @@ export class AppComponent {
 
   public showTitle = false;
 
+  public cars = ["BMW", "VOLVO", "FERRARI", "PORSCHE"];
+
 }
