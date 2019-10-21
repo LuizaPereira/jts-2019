@@ -5,11 +5,23 @@
 </div>
 
 <!-- Criando um Service -->
-<app-employee-list> </app-employee-list>
+<!-- <app-employee-list> </app-employee-list>
 
-<app-employee-detail> </app-employee-detail>
+<app-employee-detail> </app-employee-detail> -->
 <!-- Criando um Service -->
 
 <!-- Two Way Binding -->
-<input [(ngModel)]="name"> - {{name}}
+<!-- <input [(ngModel)]="name"> - {{name}} -->
 <!-- Two Way Binding -->
+
+<!-- ngIf -->
+<div *ngIf="showTitle; then titleBlock, else subBlock"> </div>
+
+<ng-template #titleBlock>
+  <h1> Title Block Test</h1>
+</ng-template>
+
+<ng-template #subBlock>
+  <h1> Title Sub Test</h1>
+</ng-template>
+<!-- ngIf -->

@@ -11,4 +11,6 @@ export class AppComponent {
 
   public name = "Luiza";
 
+  public showTitle = false;
+
 }
